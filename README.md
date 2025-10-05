@@ -133,9 +133,9 @@ python real_estate_agents.py
 
 ## 📈 关键能力
 
-- 抽取地址、价格、卧室数、卫生间数、建筑面积、占地面积、建造年份、房产类型、挂牌经纪人、在市天数、MLS 编号、描述、图片 URL 与社区信息等。
+- 提取地址、价格、卧室数量、浴室数量、建筑面积、占地面积、建造年份、房产类型、挂牌经纪人、在市天数、MLS 编号、描述、图片 URL 和社区信息。
 - 严格的 JSON 模式校验：始终输出 snake_case 键名。
-- 通过 Bright Data 的 MCP 技术栈处理代理轮换、验证码与反爬保护。
+- 使用 Bright Data 的 MCP 技术栈处理 [代理轮换](https://www.bright.cn/solutions/rotating-proxies)、[验证码](https://www.bright.cn/products/web-unlocker/captcha-solver) 和反爬虫保护。
 - 易于扩展更多数据字段与自定义数据源。
 
 ---
